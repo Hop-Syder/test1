@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Location - Location d'appartements pour étudiants, couples et familles</title>
+    <meta name="description"
+        content="Trouvez l'appartement idéal pour étudiant, couple ou famille. Locations meublées à proximité des campus et centres-villes.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css//swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/trick-icons.css">
+
+    <!-- Favicons and manifest -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicons/favicon.ico">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/icon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/icon-192.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <meta name="theme-color" content="#007bff">
+
+    <!-- Custom stylesheet loaded last to override vendor styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <!-- Header -->
+        <header class="main-header sticky-top">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo-trans.png" alt="Paradise Location" width="80" height="80">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about-section">À propos</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="apartments.html">Appartements</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services-section">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#cta-section">Contact</a></li>
+                        </ul>
+
+                        <div class="d-flex mt-3 mt-lg-0 ms-lg-4">
+                            <a href="#" class="btn btn-warning btn-cta">Réserver maintenant</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- CTA Section -->
+        <section class="cta-section py-5 bg-dark text-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-4 mb-lg-0">
+                        <h2>Vous cherchez le logement parfait ?</h2>
+                        <p class="lead mb-0">Notre équipe est à votre écoute pour vous aider à trouver l'appartement qui
+                            correspond à vos besoins et à votre budget.</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="#" class="btn btn-warning btn-lg">Contactez-nous</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apartments Showcase Section -->
+        <section id="apartments" class="apartments-section py-5">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="subtitle text-warning">Nos Appartements</span>
+                    <h2>Découvrez notre sélection exclusive</h2>
+                    <p class="lead">Chaque appartement est soigneusement sélectionné pour vous offrir le meilleur</p>
+                </div>
+
+                <div class="row">
+                    <!-- Appartement 1 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="apartment-card" data-animation="fadeInUp">
+                            <div class="apartment-image">
+                                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="Studio Étudiant" class="img-fluid">
+                                <div class="apartment-badge">Studio</div>
+                                <div class="apartment-price">450€/mois</div>
+                            </div>
+                            <div class="apartment-content">
+                                <h4>Studio Lumineux Campus Nord</h4>
+                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Proche Université
+                                </p>
+                                <div class="apartment-features">
+                                    <span class="feature"><i class="fas fa-bed"></i> 1 Lit</span>
+                                    <span class="feature"><i class="fas fa-bath"></i> 1 SDB</span>
+                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 25m²</span>
+                                </div>
+                                <div class="apartment-amenities">
+                                    <span class="amenity"><i class="fas fa-wifi"></i> WiFi</span>
+                                    <span class="amenity"><i class="fas fa-utensils"></i> Kitchenette</span>
+                                    <span class="amenity"><i class="fas fa-washing-machine"></i> Laverie</span>
+                                </div>
+                                <div class="apartment-actions">
+                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
+                                        data-bs-target="#apartmentModal">Voir plus</a>
+                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appartement 2 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="apartment-card" data-animation="fadeInUp" data-delay="100">
+                            <div class="apartment-image">
+                                <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="T2 Couple" class="img-fluid">
+                                <div class="apartment-badge">T2</div>
+                                <div class="apartment-price">650€/mois</div>
+                            </div>
+                            <div class="apartment-content">
+                                <h4>T2 Moderne Centre-Ville</h4>
+                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Hyper centre</p>
+                                <div class="apartment-features">
+                                    <span class="feature"><i class="fas fa-bed"></i> 1 Ch</span>
+                                    <span class="feature"><i class="fas fa-bath"></i> 1 SDB</span>
+                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 45m²</span>
+                                </div>
+                                <div class="apartment-amenities">
+                                    <span class="amenity"><i class="fas fa-wifi"></i> WiFi</span>
+                                    <span class="amenity"><i class="fas fa-car"></i> Parking</span>
+                                    <span class="amenity"><i class="fas fa-shield-alt"></i> Sécurisé</span>
+                                </div>
+                                <div class="apartment-actions">
+                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
+                                        data-bs-target="#apartmentModal">Voir plus</a>
+                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appartement 3 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="apartment-card" data-animation="fadeInUp" data-delay="200">
+                            <div class="apartment-image">
+                                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="T3 Famille" class="img-fluid">
+                                <div class="apartment-badge">T3</div>
+                                <div class="apartment-price">850€/mois</div>
+                            </div>
+                            <div class="apartment-content">
+                                <h4>T3 Familial avec Jardin</h4>
+                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Résidentiel</p>
+                                <div class="apartment-features">
+                                    <span class="feature"><i class="fas fa-bed"></i> 2 Ch</span>
+                                    <span class="feature"><i class="fas fa-bath"></i> 2 SDB</span>
+                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 75m²</span>
+                                </div>
+                                <div class="apartment-amenities">
+                                    <span class="amenity"><i class="fas fa-tree"></i> Jardin</span>
+                                    <span class="amenity"><i class="fas fa-graduation-cap"></i> École</span>
+                                    <span class="amenity"><i class="fas fa-playground"></i> Parc</span>
+                                </div>
+                                <div class="apartment-actions">
+                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
+                                        data-bs-target="#apartmentModal">Voir plus</a>
+                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appartement 4 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="apartment-card" data-animation="fadeInUp" data-delay="300">
+                            <div class="apartment-image">
+                                <img src="https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="Loft Pro" class="img-fluid">
+                                <div class="apartment-badge">Loft</div>
+                                <div class="apartment-price">950€/mois</div>
+                            </div>
+                            <div class="apartment-content">
+                                <h4>Loft Professionnel Design</h4>
+                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Zone d'affaires</p>
+                                <div class="apartment-features">
+                                    <span class="feature"><i class="fas fa-bed"></i> 1 Ch</span>
+                                    <span class="feature"><i class="fas fa-bath"></i> 1 SDB</span>
+                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 65m²</span>
+                                </div>
+                                <div class="apartment-amenities">
+                                    <span class="amenity"><i class="fas fa-laptop"></i> Bureau</span>
+                                    <span class="amenity"><i class="fas fa-wifi"></i> Fibre</span>
+                                    <span class="amenity"><i class="fas fa-coffee"></i> Espace détente</span>
+                                </div>
+                                <div class="apartment-actions">
+                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
+                                        data-bs-target="#apartmentModal">Voir plus</a>
+                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appartement 5 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="apartment-card" data-animation="fadeInUp" data-delay="400">
+                            <div class="apartment-image">
+                                <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="Premium" class="img-fluid">
+                                <div class="apartment-badge premium">Premium</div>
+                                <div class="apartment-price">1200€/mois</div>
+                            </div>
+                            <div class="apartment-content">
+                                <h4>Appartement Premium Vue Mer</h4>
+                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Front de mer</p>
+                                <div class="apartment-features">
+                                    <span class="feature"><i class="fas fa-bed"></i> 2 Ch</span>
+                                    <span class="feature"><i class="fas fa-bath"></i> 2 SDB</span>
+                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 85m²</span>
+                                </div>
+                                <div class="apartment-amenities">
+                                    <span class="amenity"><i class="fas fa-swimming-pool"></i> Piscine</span>
+                                    <span class="amenity"><i class="fas fa-concierge-bell"></i> Service</span>
+                                    <span class="amenity"><i class="fas fa-parking"></i> Parking sécurisé</span>
+                                </div>
+                                <div class="apartment-actions">
+                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
+                                        data-bs-target="#apartmentModal">Voir plus</a>
+                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appartement 6 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="apartment-card" data-animation="fadeInUp" data-delay="500">
+                            <div class="apartment-image">
+                                <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="Colocation" class="img-fluid">
+                                <div class="apartment-badge">Colocation</div>
+                                <div class="apartment-price">350€/mois</div>
+                            </div>
+                            <div class="apartment-content">
+                                <h4>Colocation Étudiante Moderne</h4>
+                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Quartier étudiant
+                                </p>
+                                <div class="apartment-features">
+                                    <span class="feature"><i class="fas fa-bed"></i> Chambre privée</span>
+                                    <span class="feature"><i class="fas fa-bath"></i> 2 SDB partagées</span>
+                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 90m²</span>
+                                </div>
+                                <div class="apartment-amenities">
+                                    <span class="amenity"><i class="fas fa-wifi"></i> WiFi</span>
+                                    <span class="amenity"><i class="fas fa-tv"></i> Salon commun</span>
+                                    <span class="amenity"><i class="fas fa-utensils"></i> Cuisine équipée</span>
+                                </div>
+                                <div class="apartment-actions">
+                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
+                                        data-bs-target="#apartmentModal">Voir plus</a>
+                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <a href="#apartments" class="btn btn-outline-primary btn-lg">Voir tous nos appartements</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section py-5">
+            <div class="container">
+                <div class="section-header text-center mb-5">
+                    <span class="subtitle text-warning">Témoignages</span>
+                    <h2>Ce que disent nos clients</h2>
+                    <p class="lead">Découvrez les expériences de ceux qui nous ont fait confiance</p>
+                </div>
+
+                <div class="swiper testimonials-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card card border-0 shadow-sm h-100">
+                                <div class="card-body p-4">
+                                    <div class="rating mb-3">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">"Grâce à Paradise Location, j'ai trouvé le studio
+                                        parfait
+                                        près de mon campus. L'équipe a été très réactive et m'a accompagné dans toutes
+                                        les démarches."</p>
+                                    <div class="testimonial-author d-flex align-items-center mt-4">
+                                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Marie L."
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="mb-0">Marie L.</h6>
+                                            <small class="text-muted">Étudiante</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card card border-0 shadow-sm h-100">
+                                <div class="card-body p-4">
+                                    <div class="rating mb-3">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">"Nous avons trouvé notre appartement de couple en
+                                        seulement une semaine. Le processus était fluide et transparent. Je recommande
+                                        vivement !"</p>
+                                    <div class="testimonial-author d-flex align-items-center mt-4">
+                                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Thomas D."
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="mb-0">Thomas D.</h6>
+                                            <small class="text-muted">Jeune actif</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card card border-0 shadow-sm h-100">
+                                <div class="card-body p-4">
+                                    <div class="rating mb-3">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">"En tant que famille avec deux enfants, nous avions des
+                                        besoins spécifiques. Paradise Location nous a trouvé l'appartement idéal près
+                                        d'une école et d'un parc."</p>
+                                    <div class="testimonial-author d-flex align-items-center mt-4">
+                                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sophie M."
+                                            class="rounded-circle me-3" width="50" height="50">
+                                        <div>
+                                            <h6 class="mb-0">Sophie M.</h6>
+                                            <small class="text-muted">Famille</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section py-5 bg-dark text-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-4 mb-lg-0">
+                        <h2>Vous cherchez le logement parfait ?</h2>
+                        <p class="lead mb-0">Notre équipe est à votre écoute pour vous aider à trouver l'appartement qui
+                            correspond à vos besoins et à votre budget.</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="#" class="btn btn-warning btn-lg">Contactez-nous</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer bg-dark text-white pt-5 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <img src="assets/images/logo-trans.png" alt="Paradise Location" width="160" height="85"
+                            class="mb-3">
+                        <p>Paradise Location vous accompagne dans la recherche de votre logement idéal, que vous soyez
+                            étudiant, couple ou famille.</p>
+                        <div class="social-links mt-4">
+                            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 mb-4">
+                        <h5>Liens rapides</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="index.html" class="text-white text-decoration-none">Accueil</a>
+                            </li>
+                            <li class="mb-2"><a href="#" class="text-white text-decoration-none">À propos</a></li>
+                            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Services</a></li>
+                            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 mb-4">
+                        <h5>Appartements</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Studios étudiants</a>
+                            </li>
+                            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Appartements
+                                    couples</a></li>
+                            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Appartements
+                                    familles</a></li>
+                            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Appartements
+                                    premium</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 mb-4">
+                        <h5>Contact</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-phone me-2"></i> +1 999 999 9999</li>
+                            <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@Paradise Location.com</li>
+                            <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Lakes City, USA</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="row">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <p class="mb-0">&copy; 2023 Paradise Location. Tous droits réservés.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#" class="text-white text-decoration-none me-3">Mentions légales</a>
+                        <a href="#" class="text-white text-decoration-none">Politique de confidentialité</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9.0.0/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
