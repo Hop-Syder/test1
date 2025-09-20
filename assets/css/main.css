@@ -197,7 +197,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(160, 157, 153, 0.85);
+    background: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
@@ -208,7 +208,7 @@ img {
 
 .main-header.scrolled {
     padding: 8px 0;
-    background: rgba(160, 157, 153, 0.95);
+    background: rgba(0, 0, 0, 0.85);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -254,7 +254,7 @@ img {
 
 .navbar-nav .nav-link {
     font-weight: 500;
-    color: var(--dark);
+    color: var(--light-color);
     padding: 0.5rem 1rem;
     border-radius: var(--border-radius);
     position: relative;
@@ -336,9 +336,7 @@ img {
 /* Responsive adjustments */
 @media (max-width: 991.98px) {
     .navbar-collapse {
-        background: rgba(255, 255, 255, 0.95);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+
         padding: 1.5rem;
         border-radius: var(--border-radius);
         box-shadow: var(--shadow-lg);
@@ -793,7 +791,7 @@ img {
     }
 
     .slide-content {
-        padding-top: 100px;
+        padding-top: 220px;
     }
 
     .slide-content h1 {
