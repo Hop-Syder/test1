@@ -658,6 +658,7 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
+    padding-top: 60px;
     margin-left: -15px
 }
 
