@@ -845,14 +845,8 @@ img {
     border-radius: var(--border-radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow);
-    transition: var(--transition);
     background: white;
     height: 100%;
-}
-
-.apartment-card:hover {
-    transform: translateY(-10px);
-    box-shadow: var(--shadow-lg);
 }
 
 .apartment-image {
@@ -865,11 +859,6 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: var(--transition);
-}
-
-.apartment-card:hover .apartment-image img {
-    transform: scale(1.05);
 }
 
 .apartment-badge {
@@ -940,6 +929,58 @@ img {
     color: var(--primary);
 }
 
+.apartments-table {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.apartments-table thead th {
+    background: var(--light-color);
+    color: var(--dark-color);
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    border: none;
+    padding: 18px 24px;
+}
+
+.apartments-table tbody tr {
+    border-color: rgba(0, 0, 0, 0.05);
+}
+
+.apartments-table tbody td {
+    padding: 24px;
+    vertical-align: middle;
+}
+
+.apartments-table td:last-child {
+    width: 190px;
+}
+
+.apartment-title {
+    font-size: 1.15rem;
+    font-family: var(--font-secondary);
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+}
+
+.apartment-carousel .ratio {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #f1f1f1;
+}
+
+.apartment-carousel img {
+    object-fit: cover;
+}
+
+.apartments-table .btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
 .apartment-actions {
     display: flex;
     gap: 10px;
@@ -988,6 +1029,55 @@ img {
     .cta-section .btn {
         width: 100%;
         margin-top: 20px;
+    }
+
+    .apartments-table {
+        box-shadow: none;
+        background: transparent;
+    }
+
+    .apartments-table thead {
+        display: none;
+    }
+
+    .apartments-table,
+    .apartments-table tbody,
+    .apartments-table tr,
+    .apartments-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .apartments-table tbody tr {
+        margin-bottom: 24px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+    }
+
+    .apartments-table tbody td {
+        padding: 16px;
+        border: none;
+    }
+
+    .apartments-table tbody td:first-child {
+        padding: 0;
+    }
+
+    .apartments-table tbody td:first-child .ratio {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .apartments-table tbody td:last-child {
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .apartments-table tbody td:last-child .btn {
+        width: 100%;
     }
 
     .apartment-actions {

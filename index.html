@@ -63,7 +63,7 @@
                             <li class="nav-item"><a class="nav-link active" href="index.html">Accueil</a></li>
                             <li class="nav-item"><a class="nav-link" href="#about-section">À propos</a></li>
                             <li class="nav-item"><a class="nav-link" href="apartments.html">Appartements</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#services-section">Services</a></li>
+
                             <li class="nav-item"><a class="nav-link" href="#cta-section">Contact</a></li>
                         </ul>
 
@@ -205,7 +205,7 @@
         </section>
 
         <!-- About Section -->
-        <section class="about-section py-5">
+        <section id="about-section" class="about-section py-5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 mb-5 mb-lg-0">
@@ -290,6 +290,7 @@
                                 <p class="card-text">Studios et colocations à proximité des campus, meublés et équipés,
                                     avec internet inclus.</p>
                                 <a href="#" class="btn btn-link text-warning text-decoration-none">Découvrir →</a>
+
                             </div>
                         </div>
                     </div>
@@ -305,6 +306,7 @@
                                 <p class="card-text">T2 lumineux et bien agencés, proches des centres-villes et des
                                     commodités.</p>
                                 <a href="#" class="btn btn-link text-warning text-decoration-none">Découvrir →</a>
+
                             </div>
                         </div>
                     </div>
@@ -320,6 +322,7 @@
                                 <p class="card-text">T3 et T4 spacieux, sécurisés, à proximité des écoles et des parcs.
                                 </p>
                                 <a href="#" class="btn btn-link text-warning text-decoration-none">Découvrir →</a>
+
                             </div>
                         </div>
                     </div>
@@ -335,6 +338,7 @@
                                 <p class="card-text">Lofts et appartements adaptés au télétravail et aux activités
                                     professionnelles.</p>
                                 <a href="#" class="btn btn-link text-warning text-decoration-none">Découvrir →</a>
+
                             </div>
                         </div>
                     </div>
@@ -350,6 +354,7 @@
                                 <p class="card-text">Logements haut de gamme avec services exclusifs et équipements
                                     premium.</p>
                                 <a href="#" class="btn btn-link text-warning text-decoration-none">Découvrir →</a>
+
                             </div>
                         </div>
                     </div>
@@ -364,6 +369,7 @@
                                 <h4 class="card-title">Accompagnement personnalisé</h4>
                                 <p class="card-text">Un conseiller dédié vous accompagne dans toutes vos démarches.</p>
                                 <a href="#" class="btn btn-link text-warning text-decoration-none">Découvrir →</a>
+
                             </div>
                         </div>
                     </div>
@@ -396,198 +402,302 @@
                     <p class="lead">Chaque appartement est soigneusement sélectionné pour vous offrir le meilleur</p>
                 </div>
 
-                <div class="row">
-                    <!-- Appartement 1 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Studio Étudiant" class="img-fluid">
-                                <div class="apartment-badge">Studio</div>
-                                <div class="apartment-price">450€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>Studio Lumineux Campus Nord</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Proche Université
-                                </p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 1 Lit</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 1 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 25m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-wifi"></i> WiFi</span>
-                                    <span class="amenity"><i class="fas fa-utensils"></i> Kitchenette</span>
-                                    <span class="amenity"><i class="fas fa-washing-machine"></i> Laverie</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="table-responsive">
+                    <table class="table apartments-table align-middle">
+                        <thead>
+                            <tr>
+                                <th scope="col">Photos</th>
+                                <th scope="col">Description</th>
+                                <th scope="col" class="text-center">Réserver</th>
+                            </tr>
+                        </thead>
+                        <tbody>
 
-                    <!-- Appartement 2 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="100">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="T2 Couple" class="img-fluid">
-                                <div class="apartment-badge">T2</div>
-                                <div class="apartment-price">650€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>T2 Moderne Centre-Ville</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Hyper centre</p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 1 Ch</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 1 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 45m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-wifi"></i> WiFi</span>
-                                    <span class="amenity"><i class="fas fa-car"></i> Parking</span>
-                                    <span class="amenity"><i class="fas fa-shield-alt"></i> Sécurisé</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                            <tr>
+                                <td>
+                                    <div id="apartmentCarousel1" class="carousel slide apartment-carousel"
+                                        data-bs-ride="carousel" data-bs-interval="5000">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/1/2860_1.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 1 - pièce principale">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/1/2860_3.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 1 - cuisine américaine">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/1/2860_5.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 1 - espace nuit">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/1/2860_7.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 1 - salle de douche">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4 class="apartment-title">Studio aménagé - 28&nbsp;m²</h4>
+                                    <p class="mb-2">Pièce principale avec cuisine américaine équipée et salle de douche,
+                                        parquet et double vitrage pour un confort optimal.</p>
+                                    <p> Caractéristiques :
+                                        Eau chaude individuelle électrique
+                                        Chauffage individuel électrique
+                                        Hall d'entrée
+                                        Cuisine
+                                        Salle de douche
+                                        Surface : 28 m2
+                                        Etage : 1
+                                        Meublé
+                                        Ascenseur : non
+                                        Equipements :
+                                        Lave linge
+                                        Micro-ondes
+                                        Télévision
+                                        Four
+                                        Plaque de cuisson
+                                        Vaisselle
+                                        Réfrigérateur
+                                        Congélateur
+                                        Rangements
+                                        Linge de maison</p>
+                                </td>
+                                <td class="text-center">
+                                    <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Studio%20aménagé%2028m²"
+                                        class="btn btn-primary">Réserver par email</a>
+                                </td>
+                            </tr>
 
-                    <!-- Appartement 3 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="200">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="T3 Famille" class="img-fluid">
-                                <div class="apartment-badge">T3</div>
-                                <div class="apartment-price">850€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>T3 Familial avec Jardin</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Résidentiel</p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 2 Ch</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 2 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 75m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-tree"></i> Jardin</span>
-                                    <span class="amenity"><i class="fas fa-graduation-cap"></i> École</span>
-                                    <span class="amenity"><i class="fas fa-playground"></i> Parc</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                            <tr>
+                                <td>
+                                    <div id="apartmentCarousel2" class="carousel slide apartment-carousel"
+                                        data-bs-ride="carousel" data-bs-interval="5000">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/2/2862_2.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 2 - séjour lumineux">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/2/2862_4.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 2 - coin repas">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/2/2862_7.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 2 - cuisine séparée">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/2/2862_16.jpg"
+                                                        class="w-100 h-100"
+                                                        alt="Studio meublé 2 - terrasse ensoleillée">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4 class="apartment-title">Studio avec terrasse - 20&nbsp;m²</h4>
+                                    <p class="mb-2">Entrée avec rangements, cuisine séparée, salle de bains et pièce de
+                                        vie
+                                        ouverte sur une terrasse privative.</p>
+                                    <p>
+                                        Caractéristiques :
+                                        Interphone
+                                        Vidéophone
+                                        Hall d'entrée
+                                        Sdb
+                                        Surface : 20 m2
+                                        Meublé
+                                        Ascenseur : non
+                                    </p>
+                                </td>
+                                <td class="text-center">
+                                    <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Studio%20avec%20terrasse"
+                                        class="btn btn-primary">Réserver par email</a>
+                                </td>
+                            </tr>
 
-                    <!-- Appartement 4 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="300">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Loft Pro" class="img-fluid">
-                                <div class="apartment-badge">Loft</div>
-                                <div class="apartment-price">950€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>Loft Professionnel Design</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Zone d'affaires</p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 1 Ch</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 1 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 65m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-laptop"></i> Bureau</span>
-                                    <span class="amenity"><i class="fas fa-wifi"></i> Fibre</span>
-                                    <span class="amenity"><i class="fas fa-coffee"></i> Espace détente</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                            <tr>
+                                <td>
+                                    <div id="apartmentCarousel3" class="carousel slide apartment-carousel"
+                                        data-bs-ride="carousel" data-bs-interval="5000">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/3/2864_1.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 3 - séjour spacieux">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/3/2864_2.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 3 - cuisine américaine">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/3/2864_3.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 3 - coin nuit">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/3/2864_5.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 3 - salle de bains">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4 class="apartment-title">Grand studio meublé - 35&nbsp;m²</h4>
+                                    <p class="mb-2">Séjour généreux avec cuisine US équipée, salle de bains avec
+                                        lave-linge,
+                                        idéal pour une vie citadine tout confort.</p>
+                                    <p>
+                                        Caractéristiques :
+                                        Eau chaude collective
+                                        Chauffage collectif
+                                        Interphone
+                                        Hall d'entrée
+                                        Sdb
+                                        Surface : 35 m2
+                                        Etage : 6
+                                        Meublé
+                                        Ascenseur : oui
+                                        Equipements :
+                                        Lave linge
+                                        Télévision
+                                        Four
+                                        Plaque de cuisson
+                                        Vaisselle
+                                        Linge de maison</p>
+                                </td>
+                                <td class="text-center">
+                                    <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Grand%20studio%2035m²"
+                                        class="btn btn-primary">Réserver par email</a>
+                                </td>
+                            </tr>
 
-                    <!-- Appartement 5 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="400">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Premium" class="img-fluid">
-                                <div class="apartment-badge premium">Premium</div>
-                                <div class="apartment-price">1200€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>Appartement Premium Vue Mer</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Front de mer</p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 2 Ch</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 2 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 85m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-swimming-pool"></i> Piscine</span>
-                                    <span class="amenity"><i class="fas fa-concierge-bell"></i> Service</span>
-                                    <span class="amenity"><i class="fas fa-parking"></i> Parking sécurisé</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                            <tr>
+                                <td>
+                                    <div id="apartmentCarousel4" class="carousel slide apartment-carousel"
+                                        data-bs-ride="carousel" data-bs-interval="5000">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/4/2875_1.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 4 - espace principal">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/4/2875_2.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 4 - kitchenette">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/4/2875_4.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 4 - coin repas">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/4/2875_6.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 4 - salle d'eau">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4 class="apartment-title">Studio fonctionnel - 25&nbsp;m²</h4>
+                                    <p class="mb-2">Pièce principale baignée de lumière avec kitchenette et salle de
+                                        douche
+                                        attenante, parfait pour un pied-à-terre meublé.</p>
+                                    <p> Caractéristiques :
+                                        Interphone
+                                        Hall d'entrée
+                                        Salle de douche
+                                        Surface : 25 m2
+                                        Meublé
+                                        Ascenseur : non
+                                    </p>
+                                </td>
+                                <td class="text-center">
+                                    <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Studio%20fonctionnel%2025m²"
+                                        class="btn btn-primary">Réserver par email</a>
+                                </td>
+                            </tr>
 
-                    <!-- Appartement 6 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="500">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Colocation" class="img-fluid">
-                                <div class="apartment-badge">Colocation</div>
-                                <div class="apartment-price">350€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>Colocation Étudiante Moderne</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Quartier étudiant
-                                </p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> Chambre privée</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 2 SDB partagées</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 90m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-wifi"></i> WiFi</span>
-                                    <span class="amenity"><i class="fas fa-tv"></i> Salon commun</span>
-                                    <span class="amenity"><i class="fas fa-utensils"></i> Cuisine équipée</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-center mt-5">
-                    <a href="#apartments" class="btn btn-outline-primary btn-lg">Voir tous nos appartements</a>
+                            <tr>
+                                <td>
+                                    <div id="apartmentCarousel5" class="carousel slide apartment-carousel"
+                                        data-bs-ride="carousel" data-bs-interval="5000">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/5/2930_3.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 5 - salon moderne">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/5/2930_5.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 5 - cuisine équipée">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/5/2930_8.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 5 - espace nuit">
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="ratio ratio-4x3">
+                                                    <img src="assets/images/app/studio-meuble/5/2930_11.jpg"
+                                                        class="w-100 h-100" alt="Studio meublé 5 - salle de bains">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h4 class="apartment-title">Studio premium - 35&nbsp;m²</h4>
+                                    <p class="mb-2">Salon convivial, cuisine américaine équipée et salle de bains
+                                        séparée,
+                                        mobilier moderne en parfait état.</p>
+                                    <p> Caractéristiques :
+                                        Sdb
+                                        Surface : 35 m2
+                                        Meublé
+                                        Ascenseur : non
+                                    </p>
+                                    </ul>
+                                </td>
+                                <td class="text-center">
+                                    <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Studio%20premium%2035m²"
+                                        class="btn btn-primary">Réserver par email</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>

@@ -54,7 +54,7 @@
                             <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
                             <li class="nav-item"><a class="nav-link" href="#about-section">À propos</a></li>
                             <li class="nav-item"><a class="nav-link active" href="apartments.html">Appartements</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#services-section">Services</a></li>
+
                             <li class="nav-item"><a class="nav-link" href="#cta-section">Contact</a></li>
                         </ul>
 
@@ -66,21 +66,6 @@
             </nav>
         </header>
 
-        <!-- CTA Section -->
-        <section class="cta-section py-5 bg-dark text-white">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-8 mb-4 mb-lg-0">
-                        <h2>Vous cherchez le logement parfait ?</h2>
-                        <p class="lead mb-0">Notre équipe est à votre écoute pour vous aider à trouver l'appartement qui
-                            correspond à vos besoins et à votre budget.</p>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a href="#" class="btn btn-warning btn-lg">Contactez-nous</a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Apartments Showcase Section -->
         <section id="apartments" class="apartments-section py-5">
@@ -91,199 +76,1053 @@
                     <p class="lead">Chaque appartement est soigneusement sélectionné pour vous offrir le meilleur</p>
                 </div>
 
-                <div class="row">
-                    <!-- Appartement 1 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Studio Étudiant" class="img-fluid">
-                                <div class="apartment-badge">Studio</div>
-                                <div class="apartment-price">450€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>Studio Lumineux Campus Nord</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Proche Université
-                                </p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 1 Lit</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 1 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 25m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-wifi"></i> WiFi</span>
-                                    <span class="amenity"><i class="fas fa-utensils"></i> Kitchenette</span>
-                                    <span class="amenity"><i class="fas fa-washing-machine"></i> Laverie</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
+                <article id="collection-paris" class="mb-5">
+                    <h3 class="h4 text-primary mb-3">Collection Paris &amp; Île-de-France</h3>
+                    <p class="text-muted mb-4">Nos logements parisiens meublés, idéaux pour une installation immédiate
+                        au cœur de la capitale et de sa petite couronne.</p>
+                    <div class="table-responsive">
+                        <table class="table apartments-table align-middle">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Photos</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col" class="text-center">Réserver</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div id="parisCarousel1" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/1/6582_1.jpg"
+                                                            class="w-100 h-100" alt="Séjour lumineux du T2 rue de Suez">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/1/6582_3.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Cuisine ouverte équipée rue de Suez">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/1/6582_5.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Chambre avec rangements rue de Suez">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/1/6582_9.jpg"
+                                                            class="w-100 h-100" alt="Salle d'eau moderne rue de Suez">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">T2 lumineux – Rue de Suez, Paris 18e</h4>
+                                        <p class="mb-2">42&nbsp;m² meublés au 8<sup>e</sup> étage avec ascenseur,
+                                            séjour avec cuisine ouverte et chambre séparée offrant une vue dégagée
+                                            sur les toits et la Tour Eiffel.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>42&nbsp;m² · 1
+                                                chambre · 8<sup>e</sup> étage</li>
+                                            <li><i class="fas fa-map-marker-alt text-warning me-2"></i>19 rue de Suez,
+                                                Paris 18e · Chauffage collectif</li>
+                                            <li><i class="fas fa-utensils text-warning me-2"></i>Cuisine équipée,
+                                                lave-linge,
+                                                lave-vaisselle, lit double</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20T2%20Rue%20de%20Suez"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="parisCarousel2" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/2/6498_1.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Salon avec balcon rue Godot de Mauroy">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/2/6498_3.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Cuisine séparée équipée rue Godot de Mauroy">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/2/6498_4.jpg"
+                                                            class="w-100 h-100" alt="Chambre calme rue Godot de Mauroy">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/2/6498_6.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Salle d'eau contemporaine rue Godot de Mauroy">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Grand T2 – Rue Godot de Mauroy, Paris 9e</h4>
+                                        <p class="mb-2">Appartement de 62&nbsp;m² avec double balcon, salon lumineux,
+                                            cuisine séparée et chambre spacieuse au 6<sup>e</sup> étage d’un immeuble
+                                            haussmannien avec ascenseur.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>62&nbsp;m² · 1
+                                                chambre · 6<sup>e</sup> étage</li>
+                                            <li><i class="fas fa-door-open text-warning me-2"></i>Porte blindée,
+                                                digicode,
+                                                placards intégrés</li>
+                                            <li><i class="fas fa-utensils text-warning me-2"></i>Cuisine équipée,
+                                                lave-linge, four, lit double</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20T2%20Godot%20de%20Mauroy"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="parisCarousel3" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/3/2904_1.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Séjour avec accès terrasse à Nangis">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/3/2904_3.jpg"
+                                                            class="w-100 h-100" alt="Terrasse de 25 m² à Nangis">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/3/2904_6.jpg"
+                                                            class="w-100 h-100" alt="Cuisine séparée équipée à Nangis">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/3/2904_8.jpg"
+                                                            class="w-100 h-100" alt="Chambre au calme à Nangis">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">T2 avec terrasse – Rue Pasteur, Nangis</h4>
+                                        <p class="mb-2">48&nbsp;m² au 9<sup>e</sup> étage avec terrasse privative de
+                                            25&nbsp;m², séjour lumineux, cuisine indépendante et chambre sur cour.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>48&nbsp;m² ·
+                                                terrasse 25&nbsp;m² · 1 chambre</li>
+                                            <li><i class="fas fa-car text-warning me-2"></i>Parking en option, cave et
+                                                ascenseur</li>
+                                            <li><i class="fas fa-wifi text-warning me-2"></i>Lave-linge, sèche-linge,
+                                                lave-vaisselle, canapé-lit</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20T2%20Terrasse%20Nangis"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="parisCarousel4" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/5/5497_1.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Séjour sur cour boulevard Exelmans">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/5/5497_3.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Cuisine équipée boulevard Exelmans">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/5/5497_5.jpg"
+                                                            class="w-100 h-100" alt="Chambre cosy boulevard Exelmans">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/5/5497_7.jpg"
+                                                            class="w-100 h-100" alt="Salle de bains boulevard Exelmans">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">T2 standing – Boulevard Exelmans, Paris 16e</h4>
+                                        <p class="mb-2">41&nbsp;m² sur cour au 1<sup>er</sup> étage d’un immeuble de
+                                            standing sécurisé avec gardien, séjour, chambre et cuisine aménagée.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>41&nbsp;m² · 1
+                                                chambre · ascenseur</li>
+                                            <li><i class="fas fa-shield-halved text-warning me-2"></i>Porte blindée,
+                                                interphone, digicode</li>
+                                            <li><i class="fas fa-utensils text-warning me-2"></i>Lave-linge,
+                                                lave-vaisselle,
+                                                TV, four, hifi</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20T2%20Exelmans"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="parisCarousel5" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/6/5388_1.jpg"
+                                                            class="w-100 h-100" alt="Séjour chaleureux à Aubervilliers">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/6/5388_3.jpg"
+                                                            class="w-100 h-100" alt="Cuisine américaine Aubervilliers">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/6/5388_6.jpg"
+                                                            class="w-100 h-100" alt="Chambre lumineuse Aubervilliers">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/6/5388_9.jpg"
+                                                            class="w-100 h-100" alt="Salle de bains Aubervilliers">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">T2 cosy – Rue Louis Fourrier, Aubervilliers</h4>
+                                        <p class="mb-2">38&nbsp;m² meublés au 2<sup>e</sup> étage, séjour ouvert sur
+                                            cuisine équipée, chambre et salle de bains avec WC.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>38&nbsp;m² · 1
+                                                chambre · immeuble ancien</li>
+                                            <li><i class="fas fa-bolt text-warning me-2"></i>Chauffage et eau chaude
+                                                individuels électriques</li>
+                                            <li><i class="fas fa-couch text-warning me-2"></i>Lave-linge, TV, four,
+                                                rangements et linge de maison</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20T2%20Aubervilliers"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="parisCarousel6" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/7/5301_1.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Salon donnant sur jardin Villeneuve-Saint-Georges">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/7/5301_4.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Cuisine séparée équipée Villeneuve-Saint-Georges">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/7/5301_8.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Chambre calme Villeneuve-Saint-Georges">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/7/5301_12.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Salle de bains Villeneuve-Saint-Georges">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">T2 jardin – Rue d’Alembert, Villeneuve-Saint-Georges
+                                        </h4>
+                                        <p class="mb-2">48&nbsp;m² meublés au 4<sup>e</sup> étage avec ascenseur,
+                                            entrée, salon, cuisine séparée, chambre sur jardin et salle de bains
+                                            indépendante.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>48&nbsp;m² · 1
+                                                chambre · WC séparés</li>
+                                            <li><i class="fas fa-door-open text-warning me-2"></i>Porte blindée,
+                                                digicode,
+                                                nombreux placards</li>
+                                            <li><i class="fas fa-bed text-warning me-2"></i>Lave-linge, four,
+                                                canapé-lit,
+                                                lit double</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20T2%20Villeneuve-Saint-Georges"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="parisCarousel7" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/8/5105_1.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Séjour avec cuisine ouverte Ballancourt">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/8/5105_4.jpg"
+                                                            class="w-100 h-100" alt="Cuisine équipée Ballancourt">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/8/5105_7.jpg"
+                                                            class="w-100 h-100" alt="Chambre confortable Ballancourt">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/8/5105_10.jpg"
+                                                            class="w-100 h-100" alt="Salle de douche Ballancourt">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">T2 compact – Rue de la Papeterie, Ballancourt</h4>
+                                        <p class="mb-2">29,7&nbsp;m² optimisés avec séjour et cuisine ouverte,
+                                            chambre séparée et salle de douche avec WC.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>29,7&nbsp;m² · 1
+                                                chambre · 2<sup>e</sup> étage</li>
+                                            <li><i class="fas fa-bolt text-warning me-2"></i>Chauffage et eau chaude
+                                                individuels électriques</li>
+                                            <li><i class="fas fa-tv text-warning me-2"></i>Lave-linge, micro-ondes, TV,
+                                                canapé-lit et congélateur</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20T2%20Ballancourt"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="parisCarousel8" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/9/4980_1.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Pièce principale en mezzanine Ballancourt">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/9/4980_4.jpg"
+                                                            class="w-100 h-100" alt="Cuisine indépendante Ballancourt">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/9/4980_7.jpg"
+                                                            class="w-100 h-100" alt="Salle de bains Ballancourt">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/9/4980_12.jpg"
+                                                            class="w-100 h-100" alt="Vue dégagée Ballancourt">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Duplex mezzanine – Rue des Écoles, Ballancourt</h4>
+                                        <p class="mb-2">40&nbsp;m² habitables avec pièce de vie, chambre en mezzanine,
+                                            cuisine séparée et salle de bains + WC indépendants.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>40&nbsp;m² · 1
+                                                chambre · 1<sup>er</sup> étage</li>
+                                            <li><i class="fas fa-building text-warning me-2"></i>Ascenseur, vidéophone,
+                                                chauffage collectif</li>
+                                            <li><i class="fas fa-sink text-warning me-2"></i>Lave-linge, lave-vaisselle,
+                                                TV et linge de maison</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Duplex%20Ballancourt"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="parisCarousel9" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/M1/4530_1.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Maison meublée Champs-Élysées séjour">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/M1/4530_4.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Cuisine équipée maison Champs-Élysées">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/M1/4530_9.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Suite parentale maison Champs-Élysées">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement/M1/4530_16.jpg"
+                                                            class="w-100 h-100" alt="Terrasse privée Champs-Élysées">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Maison patio – Cour des Champs-Élysées</h4>
+                                        <p class="mb-2">83&nbsp;m² refaits à neuf avec terrasse privative de 35&nbsp;m²,
+                                            grande pièce de vie, cuisine dinatoire et deux suites.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>83&nbsp;m² · 2
+                                                chambres · maison indépendante</li>
+                                            <li><i class="fas fa-tree text-warning me-2"></i>Terrasse aménagée au calme
+                                                à
+                                                deux pas des Champs-Élysées</li>
+                                            <li><i class="fas fa-washing-machine text-warning me-2"></i>Lave-linge,
+                                                sèche-linge, lave-vaisselle, rangements et literie premium</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Maison%20Champs-Élysées"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
+                </article>
 
-                    <!-- Appartement 2 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="100">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="T2 Couple" class="img-fluid">
-                                <div class="apartment-badge">T2</div>
-                                <div class="apartment-price">650€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>T2 Moderne Centre-Ville</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Hyper centre</p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 1 Ch</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 1 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 45m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-wifi"></i> WiFi</span>
-                                    <span class="amenity"><i class="fas fa-car"></i> Parking</span>
-                                    <span class="amenity"><i class="fas fa-shield-alt"></i> Sécurisé</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
+                <article id="collection-urbain" class="mb-5">
+                    <h3 class="h4 text-primary mb-3">Studios Urbains</h3>
+                    <p class="text-muted mb-4">Petit format, grande efficacité : nos studios optimisés pour les séjours
+                        professionnels ou étudiants.</p>
+                    <div class="table-responsive">
+                        <table class="table apartments-table align-middle">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Photos</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col" class="text-center">Réserver</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div id="urbanCarousel1" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/1/2682_1.jpg"
+                                                            class="w-100 h-100" alt="Séjour lumineux studio 32m² Paris">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/1/2682_2.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Cuisine américaine studio 32m² Paris">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/1/2682_3.jpg"
+                                                            class="w-100 h-100" alt="Coin nuit studio 32m² Paris">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/1/2682_5.jpg"
+                                                            class="w-100 h-100" alt="Salle de douche studio 32m² Paris">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Studio 32&nbsp;m² – Paris 6e</h4>
+                                        <p class="mb-2">Pièce principale modulable avec cuisine US équipée, coin bureau
+                                            séparé et salle de douche avec WC.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>32,95&nbsp;m² ·
+                                                2<sup>e</sup> étage · immeuble 1890</li>
+                                            <li><i class="fas fa-door-open text-warning me-2"></i>Porte blindée, double
+                                                vitrage, digicode</li>
+                                            <li><i class="fas fa-laptop text-warning me-2"></i>Lave-linge, four,
+                                                canapé-lit, rangements</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Studio%2032m²%20Paris6"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="urbanCarousel2" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/2/2935_1.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Vue sur les toits micro studio Paris">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/2/2935_4.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Cuisine compacte micro studio Paris">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/2/2935_6.jpg"
+                                                            class="w-100 h-100" alt="Coin nuit micro studio Paris">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/2/2935_9.jpg"
+                                                            class="w-100 h-100" alt="Salle d'eau micro studio Paris">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Micro-studio 12&nbsp;m² – Vue toits de Paris</h4>
+                                        <p class="mb-2">8&nbsp;m² Carrez (12,6&nbsp;m² au sol) avec cuisine ouverte et
+                                            salle d’eau, parfait pour un pied-à-terre.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>12&nbsp;m² au sol
+                                                · Belles vues dégagées</li>
+                                            <li><i class="fas fa-building text-warning me-2"></i>Immeuble sans ascenseur
+                                                · Bail résidence secondaire</li>
+                                            <li><i class="fas fa-shower text-warning me-2"></i>Cuisine équipée,
+                                                rangements optimisés</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Micro%20Studio%20Paris"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="urbanCarousel3" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/3/2942_1.jpg"
+                                                            class="w-100 h-100" alt="Séjour moderne studio 19m² Paris">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/3/2942_4.jpg"
+                                                            class="w-100 h-100" alt="Cuisine équipée studio 19m² Paris">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/3/2942_7.jpg"
+                                                            class="w-100 h-100" alt="Coin nuit studio 19m² Paris">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/3/2942_10.jpg"
+                                                            class="w-100 h-100" alt="Salle de douche studio 19m² Paris">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Studio 19&nbsp;m² – Internet inclus, Paris 11e</h4>
+                                        <p class="mb-2">Pièce principale lumineuse, cuisine ouverte avec lave-linge
+                                            séchant, salle de douche et WC.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>19,5&nbsp;m² ·
+                                                4<sup>e</sup> étage sans ascenseur</li>
+                                            <li><i class="fas fa-wifi text-warning me-2"></i>Internet et wifi inclus,
+                                                double vitrage</li>
+                                            <li><i class="fas fa-bolt text-warning me-2"></i>Chauffage individuel
+                                                électrique, sèche-linge</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Studio%2019m²%20Paris11"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="urbanCarousel4" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/4/2945_1.jpg"
+                                                            class="w-100 h-100" alt="Salon avec balcon studio 25m²">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/4/2945_4.jpg"
+                                                            class="w-100 h-100" alt="Cuisine séparée studio 25m²">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/4/2945_5.jpg"
+                                                            class="w-100 h-100" alt="Chambre studio 25m²">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-2/4/2945_6.jpg"
+                                                            class="w-100 h-100" alt="Salle de bains studio 25m²">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Studio 25&nbsp;m² avec balcon</h4>
+                                        <p class="mb-2">Entrée, pièce principale sur balcon, cuisine séparée et salle de
+                                            bains avec WC, cave et parking.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>25&nbsp;m² ·
+                                                Résidence avec ascenseur</li>
+                                            <li><i class="fas fa-square-parking text-warning me-2"></i>Place de parking
+                                                et cave incluses</li>
+                                            <li><i class="fas fa-home text-warning me-2"></i>Hall d’entrée, rangement,
+                                                lumineux et meublé</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Studio%2025m²%20Balcon"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
+                </article>
 
-                    <!-- Appartement 3 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="200">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="T3 Famille" class="img-fluid">
-                                <div class="apartment-badge">T3</div>
-                                <div class="apartment-price">850€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>T3 Familial avec Jardin</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Résidentiel</p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 2 Ch</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 2 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 75m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-tree"></i> Jardin</span>
-                                    <span class="amenity"><i class="fas fa-graduation-cap"></i> École</span>
-                                    <span class="amenity"><i class="fas fa-playground"></i> Parc</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
+                <article id="collection-montreal">
+                    <h3 class="h4 text-primary mb-3">Condos Montréal</h3>
+                    <p class="text-muted mb-4">Sélection de condos meublés haut de gamme au cœur de Montréal, locations
+                        mensuelles avec services et commodités.</p>
+                    <div class="table-responsive">
+                        <table class="table apartments-table align-middle">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Photos</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col" class="text-center">Réserver</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div id="montrealCarousel1" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/1/a.jpg"
+                                                            class="w-100 h-100" alt="Salon Solano Vieux-Montréal">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/1/c.jpg"
+                                                            class="w-100 h-100" alt="Cuisine équipée Solano Montréal">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/1/t.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Chambre chaleureuse Solano Montréal">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/1/w.jpg"
+                                                            class="w-100 h-100" alt="Piscine du Solano Montréal">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Solano – Vieux-Montréal</h4>
+                                        <p class="mb-2">Condo de 697&nbsp;pc entièrement meublé dans le projet Solano,
+                                            accès gym, piscine intérieure/extérieure, sauna et chalet urbain.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>697&nbsp;pc · 1
+                                                chambre · construction 2017</li>
+                                            <li><i class="fas fa-car text-warning me-2"></i>Garage, ascenseur, meublé
+                                                clé
+                                                en main</li>
+                                            <li><i class="fas fa-city text-warning me-2"></i>Quartier Vieux-Montréal,
+                                                proximité transport et universités</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Condo%20Solano%20Montréal"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="montrealCarousel2" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/2/AE.jpg"
+                                                            class="w-100 h-100" alt="Salon lumineux Lowney sur ville">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/2/AT.jpg"
+                                                            class="w-100 h-100" alt="Cuisine Lowney sur ville">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/2/CD.jpg"
+                                                            class="w-100 h-100" alt="Chambre Lowney sur ville">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/2/SC.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Piscine intérieure Lowney sur ville">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Lowney sur Ville – Griffintown</h4>
+                                        <p class="mb-2">Coin lumineux de 490&nbsp;pc entièrement rénové et meublé, avec
+                                            piscine intérieure chauffée, spa, sauna et terrasses BBQ.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>490&nbsp;pc · 1
+                                                chambre fermée · construction 2014</li>
+                                            <li><i class="fas fa-wheelchair text-warning me-2"></i>Adapté mobilité
+                                                réduite,
+                                                ascenseur, garage</li>
+                                            <li><i class="fas fa-temperature-high text-warning me-2"></i>Piscines
+                                                chauffées, spa, gym complet</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Condo%20Lowney"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="montrealCarousel3" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/3/1.jpg"
+                                                            class="w-100 h-100" alt="Salon Quai des Éclusiers Montréal">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/3/4.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Cuisine Quai des Éclusiers Montréal">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/3/8.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Chambre Quai des Éclusiers Montréal">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/3/11.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Piscine Quai des Éclusiers Montréal">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Quai des Éclusiers – Canal Lachine</h4>
+                                        <p class="mb-2">676&nbsp;pc à aire ouverte, entièrement meublé, accès direct au
+                                            canal Lachine et à la piste cyclable.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>676&nbsp;pc · 1
+                                                chambre · garage</li>
+                                            <li><i class="fas fa-water text-warning me-2"></i>Accès plan d’eau,
+                                                piscines chauffées et gym</li>
+                                            <li><i class="fas fa-subway text-warning me-2"></i>Proche marché Atwater et
+                                                métro Lionel-Groulx</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Condo%20Quai%20des%20Éclusiers"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="montrealCarousel4" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/4/1.jpg"
+                                                            class="w-100 h-100" alt="Salon Griffintown condo coin">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/4/4.jpg"
+                                                            class="w-100 h-100" alt="Cuisine Griffintown condo coin">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/4/7.jpg"
+                                                            class="w-100 h-100" alt="Chambre Griffintown condo coin">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/4/11.jpg"
+                                                            class="w-100 h-100" alt="Toit terrasse Griffintown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Griffintown – Vue ville</h4>
+                                        <p class="mb-2">Condo de coin 690&nbsp;pc, meublé, offrant gym, piscine et
+                                            chalet
+                                            urbain à deux pas des cafés et restaurants du quartier.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>690&nbsp;pc · 1
+                                                chambre · garage</li>
+                                            <li><i class="fas fa-city text-warning me-2"></i>Vue panoramique sur la
+                                                ville</li>
+                                            <li><i class="fas fa-swimming-pool text-warning me-2"></i>Piscine, gym,
+                                                chalet urbain</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Condo%20Griffintown"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="montrealCarousel5" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/5/0.jpg"
+                                                            class="w-100 h-100" alt="Salon Solano Vieux-Port Montréal">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/5/4.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Cuisine Solano Vieux-Port Montréal">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/5/9.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Chambre Solano Vieux-Port Montréal">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/5/16.jpg"
+                                                            class="w-100 h-100"
+                                                            alt="Piscine Solano Vieux-Port Montréal">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Solano V – Quai de l'Horloge</h4>
+                                        <p class="mb-2">Condo de 615&nbsp;pc avec vue sur le fleuve, meublé avec goût,
+                                            accès aux nombreux services de la résidence.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>615&nbsp;pc · 1
+                                                chambre · garage</li>
+                                            <li><i class="fas fa-water text-warning me-2"></i>Vue fleuve et quai, tout
+                                                inclus</li>
+                                            <li><i class="fas fa-spa text-warning me-2"></i>Piscine intérieure, espaces
+                                                détente</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Condo%20Solano%20Quai"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div id="montrealCarousel6" class="carousel slide apartment-carousel"
+                                            data-bs-ride="carousel" data-bs-interval="5000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/6/1335295110.jpg"
+                                                            class="w-100 h-100" alt="Loft St-Alexandre salon">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/6/1335295115.jpg"
+                                                            class="w-100 h-100" alt="Cuisine loft St-Alexandre">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/6/1335295120.jpg"
+                                                            class="w-100 h-100" alt="Espace nuit loft St-Alexandre">
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="ratio ratio-4x3">
+                                                        <img src="assets/images/app/Appartement-3/6/133529513.jpg"
+                                                            class="w-100 h-100" alt="Piscine loft St-Alexandre">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h4 class="apartment-title">Lofts St-Alexandre – Centre-ville</h4>
+                                        <p class="mb-2">Loft de 551&nbsp;pc avec chambre semi-fermée, grandes fenêtres
+                                            et accès à une piscine chauffée au centre-ville.</p>
+                                        <ul class="list-unstyled small mb-0">
+                                            <li><i class="fas fa-ruler-combined text-warning me-2"></i>551&nbsp;pc · 1
+                                                chambre · immeuble 2008</li>
+                                            <li><i class="fas fa-bus text-warning me-2"></i>À deux pas des métros
+                                                Place-des-Arts et McGill</li>
+                                            <li><i class="fas fa-couch text-warning me-2"></i>Meublé, lumineux, idéal
+                                                pour séjours professionnels</li>
+                                        </ul>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="mailto:contact@paradiselocation.com?subject=Réservation%20Loft%20St-Alexandre"
+                                            class="btn btn-primary">Réserver par email</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-
-                    <!-- Appartement 4 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="300">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Loft Pro" class="img-fluid">
-                                <div class="apartment-badge">Loft</div>
-                                <div class="apartment-price">950€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>Loft Professionnel Design</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Zone d'affaires</p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 1 Ch</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 1 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 65m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-laptop"></i> Bureau</span>
-                                    <span class="amenity"><i class="fas fa-wifi"></i> Fibre</span>
-                                    <span class="amenity"><i class="fas fa-coffee"></i> Espace détente</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Appartement 5 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="400">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Premium" class="img-fluid">
-                                <div class="apartment-badge premium">Premium</div>
-                                <div class="apartment-price">1200€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>Appartement Premium Vue Mer</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Front de mer</p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> 2 Ch</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 2 SDB</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 85m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-swimming-pool"></i> Piscine</span>
-                                    <span class="amenity"><i class="fas fa-concierge-bell"></i> Service</span>
-                                    <span class="amenity"><i class="fas fa-parking"></i> Parking sécurisé</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Appartement 6 -->
-                    <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="apartment-card" data-animation="fadeInUp" data-delay="500">
-                            <div class="apartment-image">
-                                <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Colocation" class="img-fluid">
-                                <div class="apartment-badge">Colocation</div>
-                                <div class="apartment-price">350€/mois</div>
-                            </div>
-                            <div class="apartment-content">
-                                <h4>Colocation Étudiante Moderne</h4>
-                                <p class="apartment-location"><i class="fas fa-map-marker-alt"></i> Quartier étudiant
-                                </p>
-                                <div class="apartment-features">
-                                    <span class="feature"><i class="fas fa-bed"></i> Chambre privée</span>
-                                    <span class="feature"><i class="fas fa-bath"></i> 2 SDB partagées</span>
-                                    <span class="feature"><i class="fas fa-ruler-combined"></i> 90m²</span>
-                                </div>
-                                <div class="apartment-amenities">
-                                    <span class="amenity"><i class="fas fa-wifi"></i> WiFi</span>
-                                    <span class="amenity"><i class="fas fa-tv"></i> Salon commun</span>
-                                    <span class="amenity"><i class="fas fa-utensils"></i> Cuisine équipée</span>
-                                </div>
-                                <div class="apartment-actions">
-                                    <a href="#" class="btn btn-outline-primary btn-view" data-bs-toggle="modal"
-                                        data-bs-target="#apartmentModal">Voir plus</a>
-                                    <a href="#contact" class="btn btn-primary btn-reserve">Réserver</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-center mt-5">
-                    <a href="#apartments" class="btn btn-outline-primary btn-lg">Voir tous nos appartements</a>
-                </div>
+                </article>
             </div>
         </section>
 
