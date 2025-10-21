@@ -4,6 +4,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const progressBar = document.getElementById('progressBar');
     let progress = 0;
 
+    // Si aucune préloader n'est présent, initialiser directement les sliders.
+    if (!preloader || !progressBar) {
+        initializeSwipers();
+        return;
+    }
+
     // Mise à jour de la barre de progression toutes les 150ms (15 secondes / 100 = 150ms)
     const interval = setInterval(() => {
         progress += 1;
